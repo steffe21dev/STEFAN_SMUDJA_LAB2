@@ -24,8 +24,8 @@ namespace WorkerRole1
 
         //USING JOBJECT CLASS TO PASS JSON OBJECTS BETWEEN QUEUES
 
-        private string accountName = "cloudstoragestefan";                  
-        private string accountKey = "H9FBXvM3GXDiGQlWS6Lfj5elbhUxDSBPVOpmcmDuP8U9VSYnenhIkPjTzqJBduT/+T4gn8EsNeQarlTtAKjorA==";
+        private string accountName = "SECRET";                  
+        private string accountKey = "SECRET";
         private StorageCredentials creds;
         private CloudStorageAccount storageAccount;
         private CloudQueueClient queueClient;
